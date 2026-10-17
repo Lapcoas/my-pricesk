@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Lapcoas | Прайс-лист</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="container">
+        <!-- Шапка и переключатель темы -->
+        <header>
+            <div class="header-top">
+                <span class="logo">@Lapcoas | Прайс-лист</span>
+                <button id="theme-toggle" class="theme-btn">☀️ Светлая тема</button>
+            </div>
+            <h1 class="main-title">@Lapcoas ★</h1>
+        </header>
+        <!-- Блок преимуществ -->
+        <section class="features">
+            <div class="feature-card">
+                <span class="feat-bold">100%</span>
+                <span class="feat-text">Гарантия</span>
+            </div>
+            <div class="feature-card">
+                <span class="feat-bold">24/7</span>
+                <span class="feat-text">Поддержка</span>
+            </div>
+            <div class="feature-card">
+                <span class="feat-bold">free</span>
+                <span class="feat-text">Тест Деф</span>
+            </div>
+        </section>
+        <!-- Главное предложение: VIP Деф -->
+        <section class="vip-banner">
+            <div class="vip-header">
+                <h2>VIP Деф</h2>
+                <span class="vip-price">24$ / 2200₽ / 1200 🌟</span>
+            </div>
+            <p class="vip-badge">Навсегда</p>
+            <p class="service-desc-text">"Vip deff - дефаю вас от любых угроз, также обучаю осинту и прочему также помогаю вашим друзьям со скидкой 50%"</p>
+        </section>
+        <!-- Список остальных услуг -->
+        <section class="services">
+            <!-- Деф -->
+            <div class="service-card">
+                <h3>Деф</h3>
+                <div class="prices-grid">
+                    <span>Разово: 250 руб</span>
+                    <span>Месяц: 350 руб</span>
+                    <span>3 месяца: 500 руб</span>
+                    <span>Год: 1200 руб</span>
+                </div>
+                <p class="price-range">Навсегда: 2500 руб</p>
+                <p class="service-desc-text">"защищу вас от любой угрозы, гарантия 100% "</p>
+            </div>
+            <!-- Осинт -->
+            <div class="service-card">
+                <h3>Осинт</h3>
+                <p class="price-range">150 – 800 руб</p>
+                <p class="service-desc-text">" помогу найти о человеке абсолютно все данные которые вас интересуют адрес, родителей, и прочее"</p>
+            </div>
+            <!-- Обучение -->
+            <div class="service-card">
+                <h3>Обучение</h3>
+                <p class="price-range">1000 руб</p>
+            </div>
+            <!-- Снос -->
+            <div class="service-card">
+                <h3>Снос ТГ аккаунта / канала / чата</h3>
+                <p class="price-range">200 – 900 руб</p>
+                <p class="service-desc-text">"зависит от аккаунта, не сношу анонимные номера и те у которых больше 5 нфт юзернеймов"</p>
+            </div>
+            <!-- Другие услуги (Быстрые карточки) -->
+            <div class="other-services-grid">
+                <div class="mini-card">
+                    <h4>П0дж0г дв€ри</h4>
+                    <span class="mini-price">3000 – 12000 ₽</span>
+                </div>
+                <div class="mini-card">
+                    <h4>Сп0rтNкN</h4>
+                    <span class="mini-price">2000 – 15000 ₽</span>
+                </div>
+                <div class="mini-card">
+                    <h4>ПрNв@т</h4>
+                    <span class="mini-price">500 ₽</span>
+                </div>
+                <div class="mini-card">
+                    <h4>Д0н0с</h4>
+                    <span class="mini-price">200 ₽</span>
+                </div>
+                <div class="mini-card">
+                    <h4>Cв¥т</h4>
+                    <span class="mini-price">550 ₽</span>
+                </div>
+            </div>
+        </section>
+        <!-- Подвал и кнопка связи -->
+        <section class="payment-cta">
+            <p class="payment-info">💳 Оплату принимаю: На карту / СБП / NFT / Звезды</p>
+            <div class="cta-buttons">
+                <a href="https://t.me" target="_blank" class="btn primary-btn">💬 Купить / Связь в ЛС @Lapcoas</a>
+                <button id="open-reviews" class="btn secondary-btn">⭐️ Посмотреть отзывы</button>
+            </div>
+        </section>
+    </div>
+    <!-- Окно отзывов (Базовые отзывы для старта, можно менять) -->
+    <div id="reviews-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-reviews" class="close-btn">&times;</span>
+            <h2>Отзывы клиентов</h2>
+            <div class="reviews-list">
+                <div class="review-item">
+                    <p>«Просто лучший, очень сильно помог! Быстрый отклик и деф на высоте.»</p>
+                    <span class="review-author">— Довольный клиент</span>
+                </div>
+                <div class="review-item">
+                    <p>«Осинт выполнен максимально детально, нашёл всё до мелочей!»</p>
+                    <span class="review-author">— Покупатель</span>
+                </div>
+                <div class="review-item">
+                    <p>«Купил обучение, всё четко разложил по полочкам. Стоит своих денег.»</p>
+                    <span class="review-author">— Ученик</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
